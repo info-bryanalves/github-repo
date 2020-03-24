@@ -1,0 +1,36 @@
+header#page-header {
+  height: 65px;
+  width: 100%;
+  background: #24292e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+header#page-header form {
+  display: flex;
+}
+
+header#page-header img {
+  height: 32px;
+  margin-right: 10px;
+}
+
+header#page-header button {
+  border: 0;
+  cursor: pointer;
+  padding: 5px;
+  width: 40px;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #666666;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header#page-header input[type="text"] {
+  border: 0;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px 0px 0px 5px;
+}
