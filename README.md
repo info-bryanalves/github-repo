@@ -1,9 +1,9 @@
-##GitHub Repo CSV
+## GitHub Repo CSV
 
-###Objetivo
+### Objetivo
 Projeto para estudar e melhorar meu conhecimento em React, HTML e CSS
 
-###Descrição/Funcionalidades
+### Descrição/Funcionalidades
 Você irá informar seu usuário do GitHub no campo de busca e, após clicar em buscar, serão listados os seguintes dados:
 -Foto
 -Nome
