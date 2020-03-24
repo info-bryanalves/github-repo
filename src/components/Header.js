@@ -19,13 +19,25 @@ export default function Header(props) {
     }
 
     const response = await fetch(`https://api.github.com/users/${username}`)
-    const data = await response.json()
-
-    if (!data) {
-      alert('Usuário não encontrado!')
+    
+    if (response.status == 404) {
+      
+      inputRef.current.focus()
+      inputRef.current.value = 'Usuário não encontrado!'
+      return false
     }
 
-    props.setUser(data)    
+    const data = await response.json()
+    
+    props.setUser(data) 
+    handleGetRepositories()   
+  }
+
+  const handleGetRepositories = async () => {
+    const response = await fetch(`https://api.github.com/users/${username}/repos`)
+    const data = await response.json()
+
+    props.setRepositories(data)
   }
 
   const buttonStyle = {

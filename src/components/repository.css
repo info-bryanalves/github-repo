@@ -1,0 +1,52 @@
+article#page-repositories {
+}
+
+article#page-repositories header h1 {
+  font-size: 32px;
+  color: #24292e;
+  border-bottom: 1px solid #e1e4e8;
+  margin-bottom: 20px;
+}
+
+article#page-repositories section ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 328px);
+  grid-gap: 30px;
+  list-style: none;
+}
+
+article#page-repositories section ul li {
+  height: 67px;
+  border: 1px solid #ddd;
+  padding: 10px 12.5px;
+  display:flex;
+  justify-content: space-between;
+}
+
+article#page-repositories section ul li .repo-info {
+  width:85%;
+}
+
+article#page-repositories section ul li .repo-info a {
+  display: block;
+  cursor: pointer;
+  font-size: 18px;
+  color: #24292e;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+article#page-repositories section ul li .repo-info span {
+  color: #b1b1b1;
+  font-size: 14px;
+}
+
+article#page-repositories section ul li .repo-action {
+
+    
+}
+
+article#page-repositories section ul li .repo-action img {
+  width: 32px;
+}
