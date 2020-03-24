@@ -1,0 +1,7 @@
+main#page-container {
+  display: grid;
+  margin: 0 auto;
+  max-width: 980px;
+  justify-content: center;
+  grid-template-columns: 30% 70%;
+}

@@ -5,7 +5,7 @@ import search from '../assets/search.png'
 
 import './header.css'
 
-export default function Header() {
+export default function Header(props) {
 
   const [username, setUsername] = useState('')
   const inputRef = useRef(null)
@@ -21,11 +21,11 @@ export default function Header() {
     const response = await fetch(`https://api.github.com/users/${username}`)
     const data = await response.json()
 
-    if (data) {
+    if (!data) {
       alert('Usuário não encontrado!')
     }
-    
-    console.log(data)
+
+    props.setUser(data)    
   }
 
   const buttonStyle = {
