@@ -4,11 +4,17 @@
 Projeto para estudar e melhorar meu conhecimento em React, HTML e CSS
 
 ### Descrição/Funcionalidades
-Você irá informar seu usuário do GitHub no campo de busca e, após clicar em buscar, serão listados os seguintes dados:
+Você irá informar seu usuário do GitHub no campo de busca e, após clicar em buscar, serão listados os dados do usuário e dos repositórios.
+
+#### Usuário
 - Foto
 - Nome
 - Usuário do GitHub
-- Lista de Repositórios(Nome, Linguagem, Quantidade de Commits)
+
+#### Repositórios
+- Nome
+- Linguagem
+- Opção para download
 
 Você também terá a opção de:
 - Realizar download de um projeto;
