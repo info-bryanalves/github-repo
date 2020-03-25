@@ -20,4 +20,4 @@ Você também terá a opção de realizar download do ZIP do projeto.
 
 ### Imagens
 
-![](https://raw.githubusercontent.com/info-bryanalves/github-repo-csv/master/public/imagem.png)
+![](https://raw.githubusercontent.com/info-bryanalves/github-repo/master/public/imagem.png)
