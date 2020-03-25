@@ -17,3 +17,5 @@ Você irá informar seu usuário do GitHub no campo de busca e, após clicar em 
 - Opção para download
 
 Você também terá a opção de realizar download do ZIP do projeto.
+
+![alt text](https://github.com/info-bryanalves/github-repo-csv/tree/master/public/imagem.png)
